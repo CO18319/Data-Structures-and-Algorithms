@@ -10,7 +10,7 @@ int main() {
     {
         int n;
         cin>>n;
-        int *arr = new int[n-1];    // create new array of size n-1
+        int *arr = new int[n-1];    // create an array of size n-1
         for(int i = 0; i < n; i++)
             cin>>arr[i];
         reverseArray(arr, n-1);
